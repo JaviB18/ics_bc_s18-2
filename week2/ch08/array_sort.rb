@@ -11,8 +11,8 @@ while words != ''
   list.push words
   words = gets.chomp
 end
-puts 'Oh my, that's a long list!'
-puts 'But I'll try to put them in alpabetical order'
+puts 'Oh my, that\'s a long list!'
+puts 'But I\'ll try to put them in alpabetical order'
 puts 'Like this!:'
 puts ''
 puts list.sort

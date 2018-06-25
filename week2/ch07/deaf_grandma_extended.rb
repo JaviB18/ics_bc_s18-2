@@ -5,10 +5,10 @@ puts 'can you?!'.upcase
 counter = 0
 while  5 > 2
   answer = gets.chomp
-  if answer == answer.downcase
+  if answer != answer.upcase
     puts 'huh?!  speak up, sonny!'.upcase
   end
-  if answer == answer.upcase  
+  if answer == answer.upcase
     year = 1950 - rand(21)
     puts 'no, not since '.upcase + year.to_s
   end
@@ -19,6 +19,6 @@ while  5 > 2
     end
   else counter = 0
   end
-end 
+end
 puts 'why are you running away?!'.upcase
-puts 'freaking kids these days...'.upcase 
+puts 'freaking kids these days...'.upcase
